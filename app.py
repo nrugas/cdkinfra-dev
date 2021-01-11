@@ -6,6 +6,6 @@ from cdkinfra_dev.cdkinfra_dev_stack import CdkinfraDevStack
 
 
 app = core.App()
-CdkinfraDevStack(app, "cdkinfra-dev", env={'region': 'us-west-2'})
+CdkinfraDevStack(app, "cdkinfra-dev", env={'region': 'eu-central-1'})
 
 app.synth()
